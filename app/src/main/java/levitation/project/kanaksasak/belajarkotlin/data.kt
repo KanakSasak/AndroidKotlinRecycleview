@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2017. By Lalu Raynaldi Pratama Putra
+ */
+
 package levitation.project.kanaksasak.belajarkotlin
 
 /**
