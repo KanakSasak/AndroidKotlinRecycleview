@@ -9,9 +9,14 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.widget.LinearLayout
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import java.util.ArrayList
 
 class ListViewKot : AppCompatActivity() {
+
+    internal var mDatabase: FirebaseDatabase?=null
+    internal var mDatabaseRefrence: DatabaseReference?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
