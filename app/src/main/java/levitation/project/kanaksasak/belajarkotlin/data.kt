@@ -4,6 +4,8 @@
 
 package levitation.project.kanaksasak.belajarkotlin
 
+import android.text.Editable
+
 /**
  * Created by IT on 11/19/2017.
  */
